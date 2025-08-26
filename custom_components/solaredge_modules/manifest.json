@@ -1,0 +1,20 @@
+{
+  "version": "0.0.0",
+  "domain": "solaredge_modules",
+  "name": "SolarEdge Modules",
+  "codeowners": ["@tronikos"],
+  "config_flow": true,
+  "dependencies": ["recorder"],
+  "dhcp": [
+    {
+      "hostname": "target",
+      "macaddress": "002702*"
+    }
+  ],
+  "documentation": "https://github.com/tronikos/solaredge_modules",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "loggers": ["solaredge_web"],
+  "quality_scale": "bronze",
+  "requirements": ["solaredge-web==0.0.1"]
+}

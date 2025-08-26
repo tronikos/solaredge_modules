@@ -1,0 +1,28 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Device is already configured"
+        },
+        "error": {
+            "cannot_connect": "Failed to connect",
+            "invalid_auth": "Invalid authentication",
+            "unknown": "Unexpected error"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "name": "The name of this installation",
+                    "password": "Password",
+                    "site_id": "The SolarEdge site ID",
+                    "username": "Username"
+                },
+                "data_description": {
+                    "name": "The name will be used to prefix the created statistics",
+                    "password": "The password for the username",
+                    "site_id": "You can get it from the URL, e.g. `1234` for `https://monitoring.solaredge.com/solaredge-web/p/site/1234/`",
+                    "username": "Username that has access to https://monitoring.solaredge.com/"
+                }
+            }
+        }
+    }
+}

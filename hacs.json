@@ -1,0 +1,7 @@
+{
+  "name": "Solaredge Modules",
+  "homeassistant": "2025.8.0",
+  "render_readme": true,
+  "zip_release": true,
+  "filename": "solaredge_modules.zip"
+}
