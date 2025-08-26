@@ -1,8 +1,9 @@
 {
-  "version": "0.0.0",
   "domain": "solaredge_modules",
   "name": "SolarEdge Modules",
-  "codeowners": ["@tronikos"],
+  "codeowners": [
+    "@tronikos"
+  ],
   "config_flow": true,
   "dependencies": ["recorder"],
   "dhcp": [
@@ -14,7 +15,8 @@
   "documentation": "https://github.com/tronikos/solaredge_modules",
   "integration_type": "service",
   "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/tronikos/solaredge_modules/issues",
   "loggers": ["solaredge_web"],
-  "quality_scale": "bronze",
-  "requirements": ["solaredge-web==0.0.1"]
+  "requirements": ["solaredge-web==0.0.1"],
+  "version": "0.0.0"
 }
